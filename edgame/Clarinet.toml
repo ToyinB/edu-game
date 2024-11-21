@@ -1,0 +1,11 @@
+[project]
+name = "edgame"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.game-contract]
+path = "contracts/game-contract.clar"
+depends_on = []
